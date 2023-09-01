@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        h1{
+            color: aliceblue;
+            text-align: center;
+        }
+        form{
+            display: flex;
+            justify-content: center;
+        }
+        table{
+            background-color: coral;
+            width: 50%;
+        }
+        table, tr, th{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        tr{
+            height: 50px;
+        }
+        #A_column{
+            color: teal;
+            font-size: 17px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tap's Sign Up Page</h1>
+    <form>
+        
+        <table>
+            <tr>
+                <th colspan="2" style="height: 100px; font-size: 50px; color: rgb(255, 2, 2); background-color: brown;">Sign Up</th>
+            </tr>
+            <tr>
+                <th>
+                    <label id="A_column">Name</label>
+                </th>
+                <th>
+                    <input type="text">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <label id="A_column">Date of Birth</label>
+                </th>
+                <th>
+                    <input type="date">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <label id="A_column">Age</label>
+                </th>
+                <th>
+                    <input type="number">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <label id="A_column">Email</label>
+                </th>
+                <th><input type="email"></th>
+            </tr>
+            <tr>
+                <th>
+                    <label id="A_column">Gender</label>
+                </th>
+                <th>
+                    <input type="radio" id="male" name="gender">
+                    <label for="male">male</label>
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">female</label>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <label id="A_column">Country</label>
+                </th>
+                <th>
+                    <select name="country">
+                        <option value="">Select</option>
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="Bangladesh">Bangladesh</option>
+                        <option value="Pakisthan">Pakisthan</option>
+                        <option value="Nepal">Nepal</option>
+                    </select>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2" style="height: 80px; background-color: aqua;">
+                    <input type="submit" value="submit">
+                    <input type="reset" value="reset">
+                </th>
+            </tr>
+
+        </table>
+
+    </form>
+</body>
+</html>

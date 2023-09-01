@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        form{
+            display: flex;
+            justify-content: center;
+        }
+
+        table{
+            width: 30%;
+            background-color: aqua;
+        }
+        table,tr,th,td{
+            border-style: solid;
+            border-color:black;
+            border-collapse: collapse;
+        }
+        th,td{
+            text-align: center;
+            height: 30px;
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        li{
+            float: left;
+        }
+        li a{
+            display: block;
+            text-decoration: none;
+            padding: 14px;
+            font-size: 30px;
+            color: red;
+        }
+        a:hover{
+            background-color: hotpink;
+        }
+        .abt{
+            background-color: darkgreen;
+        }
+
+    </style>
+    <title>Html demo</title>
+</head>
+<body>
+    <h1>Heading 1</h1>
+    <!-- bold text-->
+    <p>My Name is <b>Tapan</b></p>
+    <!-- important text -->
+    <p>I'm from <strong>Balasore</strong></p>
+    <!-- italic text -->
+    <p>I'm <i>Computer Science Student</i></p>
+    <!-- emphasized text -->
+    <p>I'm learning now <em>web development using fontend</em></p>
+    <!-- smaller Text -->
+    <p>HTML using css is <small>awesome</small></p>
+    <!-- deleted text and inserted text -->
+    <p>I'm not <del>mechanical engineer</del> <ins>I'm Computer engineer</ins></p>
+    <!-- subscript and superscript text -->
+    <p><sub>(a+b)</sub><sup>2</sup> = <sub>a</sub><sup>2</sup> + <sub>b</sub><sup>2</sup> + 2ab</p>
+    <!-- lorem text -->
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem totam asperiores, nisi eligendi nulla officiis veniam. Explicabo beatae repudiandae, amet veniam recusandae voluptatem ullam aliquid magnam nihil eveniet esse quis incidunt. Aliquam recusandae neque unde laborum consequuntur iure quis facere aperiam corrupti debitis? Incidunt optio, natus est quas autem iste ab nostrum tempora reprehenderit non molestiae? Natus possimus perferendis neque, modi cumque quaerat fugiat itaque, autem ipsum incidunt delectus omnis facere ex, quae enim quisquam unde distinctio animi consequatur necessitatibus ratione. Consequatur debitis provident eaque adipisci! In enim, harum quam qui tempora cupiditate labore atque deleniti facere, ut repellendus neque commodi repudiandae accusantium? Rerum atque laborum excepturi sed facere. Dolores similique nemo ad, ratione commodi repellendus inventore adipisci? Itaque reprehenderit dicta officiis accusantium cumque doloremque, voluptates et. Tenetur sed ipsam quis architecto a corporis inventore. Nulla vero soluta exercitationem perspiciatis quidem quod dicta rem voluptates corrupti assumenda! Amet dignissimos, modi a adipisci numquam reiciendis cumque. Modi officiis, suscipit doloremque excepturi et dignissimos corrupti doloribus quia obcaecati at accusamus nihil, debitis adipisci ut aperiam. Illum, voluptas corporis! Velit qui inventore enim magni optio odio repellat, nesciunt eius quis quia nemo incidunt fugiat recusandae pariatur, laborum corporis debitis repudiandae corrupti ipsa quos maiores omnis minus! Nulla illo laborum ab aperiam dolore quasi necessitatibus suscipit laboriosam debitis veritatis expedita adipisci qui vel, assumenda blanditiis labore libero repudiandae. Voluptatibus voluptatem voluptatum quis cumque amet laudantium quasi quam provident voluptas recusandae dolor, obcaecati magni quibusdam earum alias. Mollitia sunt dolor sapiente consectetur at fugiat cupiditate.</p>
+    <!-- video tag -->
+    <video controls src="./Tom & Jerry ｜ Is Jerry Taking Care of Tom？ ｜ Classic Cartoon ｜ WB Kids.mp4" height="300" width="450" poster="./tommm&jerryyyy.jpg"></video>
+    <!-- audio tag -->
+    <br><audio controls src="./Born To Win(PagalWorld.com.se).mp3">born to win</audio>
+    <div>
+        <img src="./elephantImg.jpg" width="300" height="200">
+        <p>Elephant Sound</p>
+        <audio controls src="./Elefant.mp3"></audio>
+    </div>
+    <!-- anchor tag -->
+    <a class="fa fa-google" aria-hidden="true" href="https://www.google.com/">oogle</a>
+
+    <!-- form and table -->
+    <form>
+        <table>
+            <tr>
+                <th colspan="2"><label for="sign_up">sign up</label></th>
+            </tr>
+            <tr>
+                <td><label for="">Id</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="">password</label></td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="submit"> <input type="reset" value="reset"></td>
+            
+            </tr>
+        </table>
+    </form>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+        <li style="float:right"><a class="abt" href="#">About</a></li>
+    </ul>
+
+</body>
+</html>
